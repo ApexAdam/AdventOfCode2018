@@ -1,3 +1,6 @@
+const fs = require('fs')
+const input = fs.readFileSync('./fabric.txt', 'utf-8').split('\n')
+
 let fabric = Object.create(null)
 
 for (let i = 0; i < input.length; i++) {
